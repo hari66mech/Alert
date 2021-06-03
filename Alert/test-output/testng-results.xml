@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-21T12:48:32Z" name="Suite" finished-at="2021-04-21T12:48:56Z" duration-ms="24966">
+  <suite started-at="2021-04-26T06:30:57Z" name="Suite" finished-at="2021-04-26T06:31:38Z" duration-ms="41144">
     <groups>
     </groups>
-    <test started-at="2021-04-21T12:48:32Z" name="Test" finished-at="2021-04-21T12:48:56Z" duration-ms="24966">
+    <test started-at="2021-04-26T06:30:57Z" name="Test" finished-at="2021-04-26T06:31:38Z" duration-ms="41144">
       <class name="com.alert.script.AlertScript">
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:com.alert.script.AlertScript@50de186c]" started-at="2021-04-21T12:48:32Z" name="driverSetUp" finished-at="2021-04-21T12:48:32Z" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:com.alert.script.AlertScript@69f1a286]" started-at="2021-04-26T06:30:57Z" name="driverSetUp" finished-at="2021-04-26T06:30:57Z" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="urlAndClassCall()[pri:0, instance:com.alert.script.AlertScript@50de186c]" started-at="2021-04-21T12:48:32Z" name="urlAndClassCall" finished-at="2021-04-21T12:48:51Z" duration-ms="19182" status="PASS">
+        <test-method is-config="true" signature="urlAndClassCall()[pri:0, instance:com.alert.script.AlertScript@69f1a286]" started-at="2021-04-26T06:30:57Z" name="urlAndClassCall" finished-at="2021-04-26T06:31:31Z" duration-ms="34414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlAndClassCall -->
-        <test-method signature="excelInitiation()[pri:0, instance:com.alert.script.AlertScript@50de186c]" started-at="2021-04-21T12:48:51Z" name="excelInitiation" finished-at="2021-04-21T12:48:51Z" duration-ms="431" status="PASS">
+        <test-method signature="excelInitiation()[pri:0, instance:com.alert.script.AlertScript@69f1a286]" started-at="2021-04-26T06:31:31Z" name="excelInitiation" finished-at="2021-04-26T06:31:33Z" duration-ms="1233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- excelInitiation -->
-        <test-method signature="findHeaderCell()[pri:0, instance:com.alert.script.AlertScript@50de186c]" started-at="2021-04-21T12:48:51Z" name="findHeaderCell" finished-at="2021-04-21T12:48:51Z" depends-on-methods="com.alert.script.AlertScript.excelInitiation" duration-ms="6" status="PASS">
+        <test-method signature="findHeaderCell()[pri:0, instance:com.alert.script.AlertScript@69f1a286]" started-at="2021-04-26T06:31:33Z" name="findHeaderCell" finished-at="2021-04-26T06:31:33Z" depends-on-methods="com.alert.script.AlertScript.excelInitiation" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findHeaderCell -->
-        <test-method signature="findGivenDataRow()[pri:0, instance:com.alert.script.AlertScript@50de186c]" started-at="2021-04-21T12:48:51Z" name="findGivenDataRow" finished-at="2021-04-21T12:48:51Z" depends-on-methods="com.alert.script.AlertScript.findHeaderCell" duration-ms="3" status="PASS">
+        <test-method signature="findGivenDataRow()[pri:0, instance:com.alert.script.AlertScript@69f1a286]" started-at="2021-04-26T06:31:33Z" name="findGivenDataRow" finished-at="2021-04-26T06:31:33Z" depends-on-methods="com.alert.script.AlertScript.findHeaderCell" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findGivenDataRow -->
-        <test-method signature="find()[pri:0, instance:com.alert.script.AlertScript@50de186c]" started-at="2021-04-21T12:48:51Z" name="find" finished-at="2021-04-21T12:48:56Z" depends-on-methods="com.alert.script.AlertScript.findGivenDataRow" duration-ms="5250" status="PASS">
+        <test-method signature="find()[pri:0, instance:com.alert.script.AlertScript@69f1a286]" started-at="2021-04-26T06:31:33Z" name="find" finished-at="2021-04-26T06:31:38Z" depends-on-methods="com.alert.script.AlertScript.findGivenDataRow" duration-ms="5361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- find -->
-        <test-method is-config="true" signature="driverClose()[pri:0, instance:com.alert.script.AlertScript@50de186c]" started-at="2021-04-21T12:48:56Z" name="driverClose" finished-at="2021-04-21T12:48:56Z" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:com.alert.script.AlertScript@69f1a286]" started-at="2021-04-26T06:31:38Z" name="driverClose" finished-at="2021-04-26T06:31:38Z" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverClose -->
